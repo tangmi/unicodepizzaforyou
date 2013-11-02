@@ -1,0 +1,27 @@
+@font-face {
+	/* No offense Apple, the default unicode pizza looks unappetizing */
+	font-family: "Symbola";
+	src: url('./Symbola.ttf') format("truetype");
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+#thepizza {
+	font-family: "Symbola", sans-serif;
+	width: 100%;
+	text-align: center;
+}
+
+.no-js {
+	/* Some default styles in case the browser doesn't run JS */
+	position: absolute;
+	font-size: 300px;
+	margin-top: 0.5em;
+}
