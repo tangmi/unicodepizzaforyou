@@ -1,7 +1,7 @@
 @font-face {
 	/* No offense Apple, the default unicode pizza looks unappetizing */
 	font-family: "Symbola";
-	src: url('./Symbola.ttf') format("truetype");
+	src: url('./pizza.ttf') format("truetype");
 }
 
 html, body {
